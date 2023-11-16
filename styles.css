@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 35%, rgba(85,29,108,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 70px;
+    margin-left: 70px;
+    color:#9e579e;
+}
+ 
+.insta img {
+   width: 35px;
+   margin-top: 80px;
+   margin-right: 65px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.brigadeiros-image {
+    width: 60%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e579e;
+    height: 250px;
+}
+
+.menu-tittle {
+    margin-top: 250px;
+    width: 200px; 
+
+    border-radius: 50%;
+    background-color: #f8f8f8;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #9e579e;
+    
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #9e579e;
+    margin-top: 150px;
+    margin-bottom: -25px;
+}
+
+#itens {
+    display: flex; 
+    justify-content: center; 
+}
+
+.brigadier {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 70px; 
+}
+
+.brigadier img {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px;
+}
+
+
+.brigadier p {
+    font-size: 25px;
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    #itens {
+        flex-direction: column;
+    }
+
+    .brigadeiros-image {
+        width: 100%;
+    }
+}
